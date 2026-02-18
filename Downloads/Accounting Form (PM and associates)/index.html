@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P M and Associates | Chartered Accountants</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    container: {
+                        center: true,
+                        padding: {
+                            DEFAULT: '1rem',
+                            sm: '1.5rem',
+                            lg: '2rem',
+                            xl: '2.5rem',
+                            '2xl': '3rem', // Increased padding to create a bit more gap on large screens
+                        },
+                        screens: {
+                            sm: '640px',
+                            md: '768px',
+                            lg: '1024px',
+                            xl: '1280px',
+                            '2xl': '1536px',
+                            '3xl': '1640px', // Slightly more restricted max width for a cleaner desktop aesthetic
+                        },
+                    },
+                    colors: {
+                        primary: '#A63A48', // Deep Burgundy
+                        secondary: '#1B263B', // Navy Blue
+                        neutralBg: '#F8F9FA', // Soft Light Gray
+                        accentGold: '#C5A059', // Gold
+                        darkText: '#111827',
+                        lightText: '#6B7280'
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    animation: {
+                        'float': 'float 5s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, .font-serif { font-family: 'Playfair Display', serif; }
+        .sticky-header {
+            transition: all 0.3s ease;
+        }
+        .scroll-shadow {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+        .quote-card-gradient {
+            background: linear-gradient(135deg, #cbd5e1 0%, #334155 100%);
+        }
+        /* Custom scrollbar for better professional feel */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1B263B;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #A63A48;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-darkText">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
