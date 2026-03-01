@@ -116,7 +116,7 @@ const Home: React.FC = () => {
       )
     },
     { 
-      target: 15,
+      target: 20,
       suffix: '+',
       value: 'Experts', 
       icon: (
@@ -172,7 +172,7 @@ const Home: React.FC = () => {
                 & Growth.
               </h1>
               <p className="text-lg md:text-xl text-lightText mb-10 leading-relaxed">
-                PM & Associates provides comprehensive accounting, taxation, audit, and advisory services to businesses across diverse industries. We ensure regulatory compliance and sustainable success.
+                P M & Associates provides comprehensive accounting, taxation, audit, and advisory services to businesses across diverse industries. We ensure regulatory compliance and sustainable success.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
                 <Link to="/services" className="bg-primary text-white px-8 py-4 rounded-md font-semibold text-center transition-all hover:bg-[#8e313d] shadow-lg">
@@ -254,8 +254,8 @@ const Home: React.FC = () => {
             <div className="order-2 lg:order-1">
               <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
                 <img
-                  src="https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg"
-                  alt="PM & Associates - professional team"
+                  src="/images/whoweare.jpeg"
+                  alt="P M & Associates - professional team"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -264,7 +264,7 @@ const Home: React.FC = () => {
             <div className="order-1 lg:order-2 max-w-xl">
               <h2 className="text-3xl md:text-5xl font-serif font-bold text-secondary mb-8">Who We Are</h2>
               <div className="space-y-6 text-lg text-lightText leading-relaxed">
-                <p>PM & Associates is an enterprise-level Chartered Accountancy firm that stands at the intersection of traditional values and modern financial excellence. We are a team of experienced professionals committed to delivering accurate, ethical, and timely financial solutions.</p>
+                <p>P M & Associates is an enterprise-level Chartered Accountancy firm that stands at the intersection of traditional values and modern financial excellence. We are a team of experienced professionals committed to delivering accurate, ethical, and timely financial solutions.</p>
                 <p>Our approach combines deep technical expertise with a practical understanding of the complex business landscapes in Nepal, India, and beyond. We don't just crunch numbers; we provide the strategic foresight needed for sustainable growth and absolute compliance.</p>
               </div>
               <div className="mt-10">

@@ -6,7 +6,7 @@ export const SERVICES: Service[] = [
     id: 'accounting-bookkeeping',
     title: 'Accounting, Bookkeeping and Account Outsourcing',
     description: 'We provide systematic accounting services to maintain accurate financial records.',
-    scope: ['Day-to-day accounting', 'Ledger maintenance', 'Financial statements preparation', 'Compliance reporting', 'Account reconciliations', 'Management reporting']
+    scope: ['Transfer Pricing Certificate', 'NFRS/IFRS Implementation and Compliance', 'Due Diligence Review', 'Agreed Upon Procedures', 'Accounting Advisory Services', 'Project/Expenditure Certificates', 'Capital and Investment Certifications', 'Fixed Assets Coding and Verfications','Financial Projections']
   },
   {
     id: 'tax-advisory',
@@ -25,12 +25,6 @@ export const SERVICES: Service[] = [
     title: 'Business Support and Advisory',
     description: 'We assist organizations in improving operational efficiency and making informed strategic decisions.',
     scope: ['Business restructuring', 'Performance analysis', 'Financial advisory', 'Process improvement', 'Strategic planning', 'Efficiency audits', 'Business registration', 'HR management and payroll processing', 'Corporate legal compliance and reporting']
-  },
-  {
-    id: 'forensic-accounting',
-    title: 'Forensic Accounting',
-    description: 'We provide investigative accounting services to identify financial irregularities and support dispute resolution.',
-    scope: ['Fraud detection', 'Financial investigations', 'Litigation support', 'Risk assessments', 'Asset recovery', 'Expert witness services']
   },
   {
     id: 'nfrs-ifrs',
@@ -83,7 +77,7 @@ export const INDUSTRIES: IndustryExtended[] = [
     title: 'Banking, Finance and Insurance',
     description: 'We support financial institutions with regulatory compliance, audits, risk management, and financial reporting services.',
     detailedDescription: 'The banking and finance sector operates under strict regulatory frameworks. Our team provides specialized expertise in navigating these complexities while ensuring robust financial health and compliance.',
-    focusAreas: ['Regulatory Compliance', 'Internal Audit for Banks', 'Risk Management Frameworks', 'Statutory Financial Reporting', 'NFRS/IFRS Implementation', 'Credit Risk Assessment']
+    focusAreas: ['Regulatory Compliance', 'Statutory Audit', 'Internal Audit', 'Revenue Audit', 'Mergers and Acquisitions', 'Fixed Asset Codefication and Verification', 'Due Dligence of Borrowers', 'Tax and Financial Consultancy Services', 'Risk Management Frameworks', 'Statutory Financial Reporting', 'NFRS/IFRS Implementation', 'Credit Risk Assessment']
   },
   {
     id: 'trading-retail',
@@ -115,7 +109,7 @@ export const INDUSTRIES: IndustryExtended[] = [
   },
   {
     id: 'ngo-ingo',
-    title: 'NGO/INGOS Projects',
+    title: 'NGO/INGOs and Project',
     description: 'We provide specialized audit, compliance, and advisory services to NGOs, INGOs, and development projects to ensure transparency, accountability, and regulatory compliance.',
     detailedDescription:  'Non-governmental and donor-funded organizations operate under strict regulatory and reporting frameworks. We support NGOs and INGOs with financial management, donor compliance, statutory audits, and fund accountability to ensure proper utilization of resources and adherence to applicable laws.',
     focusAreas: ['Statutory Audit',
@@ -154,6 +148,20 @@ export const INDUSTRIES: IndustryExtended[] = [
     ]
 }, 
 {
+    id: 'construction',
+    title: 'Construction and Hydropower',
+    description: 'We provide specialized audit, financial advisory, and compliance services tailored to construction companies and hydropower projects, ensuring strong financial control, risk management, and regulatory compliance.',
+    detailedDescription:  'Construction and hydropower projects involve large capital investments, complex contracts, and strict regulatory requirements. We assist developers, contractors, and project owners with project audits, cost verification, contract compliance, financial reporting, tax planning, and risk assessment. Our services ensure proper fund utilization, transparency in project execution, and adherence to government regulations and industry standards throughout the project lifecycle.',
+    focusAreas: ['Statutory Audit',
+        'Internal Audit',
+        'Tax Audit',
+        'Financial Feasibility Study of Hydropower and Construction Projects',
+        'Due Diligence of Hydropower and Construction Projects',
+        'Tax Reporting, Compliance and Planning',
+        'Compliance with Value Added Tax Act, Income Tax Act, and Social Welfare Act',
+        'Financial Consulting and Consulting for the Financial Aggangement of Hydropower and Construction Project']
+  },
+{
     id: 'fintech-startup',
     title: 'Fintech and Startup',
     description: 'We support fintech companies and startups with financial structuring, compliance, and strategic advisory services to help them scale sustainably.',
@@ -166,6 +174,7 @@ export const INDUSTRIES: IndustryExtended[] = [
         'NFRS/IFRS Reporting Compliance',
         'Tax Planning and Advisory for Startups'
     ]
+    
 }  
 ];
 

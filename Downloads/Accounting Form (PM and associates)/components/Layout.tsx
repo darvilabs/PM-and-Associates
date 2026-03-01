@@ -226,6 +226,7 @@ const Footer: React.FC = () => {
               <li><Link to="/services" className="hover:text-white transition-colors">All Services</Link></li>
               <li><Link to="/industries" className="hover:text-white transition-colors">Industries We Serve</Link></li>
               <li><Link to="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
+              <li><a href="https://webmail.pmandassociates.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WebMail</a></li>
             </ul>
           </div>
 
@@ -239,7 +240,7 @@ const Footer: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=Kathmandu+Metropolitan+City+4+Kathmandu" 
+                  href="https://share.google/t2HZbtDl3RU3LeqDM" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
